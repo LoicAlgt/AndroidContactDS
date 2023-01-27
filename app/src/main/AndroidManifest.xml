@@ -12,6 +12,12 @@
         android:theme="@style/Theme.AndroidContactDS"
         tools:targetApi="31">
         <activity
+            android:name=".DetailContact"
+            android:exported="false" />
+        <activity
+            android:name=".CustomAdapter"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

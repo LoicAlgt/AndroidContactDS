@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = customAdapter
         prepareItems()
     }
+
     private fun prepareItems() {
         itemsList.add("")
         itemsList.add("")
